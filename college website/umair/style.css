@@ -1,0 +1,512 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 15;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 15px;   
+}
+.nav1{
+    float: left;
+    width: 14%;
+    padding-left: 15px;
+    
+}
+.nav2{
+    float: left;
+    width: 86%;
+    padding-left: 650px;
+    height: 60px;
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.nav2 a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+.nav2 a:hover{
+    background-color: rgb(2, 2, 75);
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+header{
+    background-color: gray;
+    overflow: hidden;
+    padding: 15px;
+    width: 100%;
+    height: 600px;
+    background-image: url(sarvodayaimage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-left: 80px;
+    color: white;
+    animation-name: umair;
+    animation-duration: 40s;
+    animation-delay: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+header p{
+    padding-right: 400px;
+    line-height: 40px;
+    font-size: 18px;
+}
+header:hover{
+    opacity: 0.5;
+}
+@keyframes umair{
+    0% {background-image: url(sarvodayaimage.jpg);}
+    20%{background-image: url(collge.jpg);}
+    40%{background-image: url(collge2.jpg);}
+    60%{background-image: url(collge3.jpg);}
+    80%{background-image: url(collge4.jpg);}
+}
+.contact{
+    background-color: gray;
+    overflow: hidden;
+    padding: 15px;
+    width: 100%;
+    height: 600px;
+    background-image: url(collge.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.aboutcollege{
+    background-color: gray;
+    overflow: hidden;
+    padding: 15px;
+    width: 100%;
+    height: 600px;
+    background-image: url(collge2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.aboutus1{
+    background-image: linear-gradient(rgb(121, 121, 212), rgb(223, 223, 139));
+    height: 220px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.gallery{
+    background-color: gray;
+    overflow: hidden;
+    padding: 15px;
+    width: 100%;
+    height: 600px;
+    background-image: url(collge3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.features{
+    background-color: gray;
+    overflow: hidden;
+    padding: 15px;
+    width: 100%;
+    height: 600px;
+    background-image: url(collge4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.para{
+    float: left;
+    width: 60%;
+    font-size: 20px;
+    padding-left: 100px;
+    margin-bottom: 20px;
+}
+.heading{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.color{
+    padding: 5px;
+    background-color: rgb(241, 241, 237);
+    border-radius: 20px;
+    color: brown;
+    font-size: 38px;
+}
+.about2{
+    float: left;
+    width: 38%;
+    padding-left: 30px;    
+}
+.about2 img{
+    border-radius: 20px;
+}
+.link{
+    background-color: blue;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+.link:hover{
+    background-color: red;
+    font-weight: 700;
+}
+.courses{
+    background-color: rgb(233, 227, 227);
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+}
+.courses h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.course1{
+    background-color: rgb(228, 215, 215);
+    padding-top: 0px;
+    margin-left: 80px;
+    margin-top: 50px;
+    float: left;
+    width: 25%;
+    height: 500px;
+    border: 1px solid black;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+    transition: 0.3s ease;
+}
+.content{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+}
+
+.btn{
+    padding-left: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    margin-left: 30px;
+    border-radius: 20px;
+    
+}
+.course1:hover{
+    opacity: 0.5;
+}
+.course2{
+    background-color: rgb(228, 215, 215);
+    padding-top: 0px;
+    margin-left: 80px;
+    margin-top: 50px;
+    float: left;
+    width: 25%;
+    height: 500px;
+    border: 1px solid black;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.content{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btn{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.course2:hover{
+    opacity: 0.5;
+}
+.course3{
+    background-color: rgb(228, 215, 215);
+    padding-top: 0px;
+    margin-left: 80px;
+    margin-top: 50px;
+    float: left;
+    width: 25%;
+    height: 500px;
+    border: 1px solid black;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.content{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btn{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.course3:hover{
+    opacity: 0.5;
+}
+.allcourses1{
+    background-color: rgb(233, 227, 227);
+    height: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0px;
+    width: 100%;
+}
+.allcourses{
+    text-decoration: none;
+    color: rgb(61, 5, 5);
+    background-color: rgb(2, 2, 75);
+    list-style-type: none;
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.allcourses:hover{
+    background-color: blueviolet;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+.events{
+    background-color: rgb(233, 227, 227);
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+}
+.events h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.event1{
+    background-color: rgb(228, 215, 215);
+    padding-top: 0px;
+    margin-left: 80px;
+    margin-top: 50px;
+    float: left;
+    width: 25%;
+    height: 500px;
+    border: 1px solid black;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+    transition: 0.3s ease;
+}
+.content{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+}
+
+.btn{
+    padding-left: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    margin-left: 30px;
+    border-radius: 20px;
+    
+}
+.event1:hover{
+    opacity: 0.5;
+}
+.event2{
+    background-color: rgb(228, 215, 215);
+    padding-top: 0px;
+    margin-left: 80px;
+    margin-top: 50px;
+    float: left;
+    width: 25%;
+    height: 500px;
+    border: 1px solid black;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.content{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btn{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.event2:hover{
+    opacity: 0.5;
+}
+.event3{
+    background-color: rgb(228, 215, 215);
+    padding-top: 0px;
+    margin-left: 80px;
+    margin-top: 50px;
+    float: left;
+    width: 25%;
+    height: 500px;
+    border: 1px solid black;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.content{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btn{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.event3:hover{
+    opacity: 0.5;
+}
+.allevents{
+    background-color: rgb(233, 227, 227);
+    height: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.allevents1{
+    text-decoration: none;
+    color: rgb(61, 5, 5);
+    background-color: rgb(2, 2, 75);
+    list-style-type: none;
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.allevents1:hover{
+    background-color: blueviolet;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+.review{
+    background-image: linear-gradient(rgb(192, 104, 119),rgb(2, 2, 190));
+    height: 300px;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 250px;
+    padding-right: 250px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 28px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+.footer{
+    background-color: rgb(3, 3, 92);
+    height: 350px;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.column1{
+    float: left;
+    width: 20%;
+    padding: 30px;
+}
+.column1 li{
+    padding: 20px;
+}
+.column1 a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+.column1 a:hover{
+    background-color: white;
+    padding: 15px;
+    color: rgb(3, 3, 92);
+    border-radius: 20px;
+
+}
+.column2{
+    float: left;
+    width: 20%;
+    padding: 30px;
+}
+.column2 li{
+    padding: 20px;
+}
+.column2 a{
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+}
+.column2 a:hover{
+    background-color: white;
+    padding: 15px;
+    color: rgb(3, 3, 92);
+    border-radius: 20px;
+}
+.column3{
+    float: left;
+    margin-left: 250px;
+    padding: 30px;
+    overflow: hidden;
+}
+.form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: linear-gradient(rgb(211, 150, 160), rgb(0, 0, 185));
+    font-size: 20px;
+    font-weight: 700;
+}
+.button{
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.button:hover{
+    background-color: rgb(255, 24, 24);
+    color: white;
+    
+
+}
